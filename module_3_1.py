@@ -13,7 +13,6 @@ def is_contains(string, list_to_search):
     new_list_to_search = [s.lower() for s in list_to_search]
     return new_list_to_search.__contains__(string.lower())
 
-
 print(string_info('Capybara'))
 print(string_info('Armageddon'))
 print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN'])) # Urban ~ urBAN
